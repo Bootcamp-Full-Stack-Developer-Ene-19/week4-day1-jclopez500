@@ -6,7 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Page Title</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+  <link href="https://fonts.googleapis.com/css?family=Encode+Sans:100,300,400,500" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
 </head>
 
 <body>
@@ -14,31 +15,59 @@
   <article class="bootcamp">
     <div class="container">
       <header class="bootcamp__header">
+
         <a href="#">
-          <h1 class="bootcamp__heading">Bootcamp 2019</h1>
-          <p class="bootcamp__sub-heading">Bootcamp Full Stack Developer Avanzado</p>
+          <h1 class="bootcamp__heading">
+            <span class="bootcamp__heading--logo">
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"><path d="M19.4518 37.9518c-10.4937 0-19-8.3944-19-18.75s8.5063-18.75 19-18.75 19 8.3944 19 18.75-8.5063 18.75-19 18.75zM7.3127 20.43l15.787.004a2.196 2.196 0 0 1 .1177-.0041c.971 0 1.7584.7594 1.7584 1.697s-.7875 1.6978-1.7584 1.6978c-.0397 0-.079-.001-.1177.031l-6.5674-.031-2.3455.026a2.571 2.571 0 0 0-.3517-.026c-1.3604 0-2.4624 1.064-2.4624 2.3766s1.102 2.3756 2.4624 2.3756c.12 0 .2376-.0105.3517 0l9.8515-.026c3.287-.2656 5.8634-2.7375 5.8634-5.747 0-1.787-.9072-3.3843-2.3332-4.4428.8996-1.0295 1.3945-2.3437 1.3946-3.7032 0-3.15-2.6144-5.7093-5.8634-5.7712l-8.4436.0105c-.078-.0076-.1565-.011-.235-.0105-1.1656 0-2.111.9122-2.111 2.0363s.9453 2.037 2.111 2.037c.0798 0 .1578-.004.235 0l8.4436.0042c.9167.0582 1.6416.794 1.6416 1.693s-.725 1.635-1.6416 1.697H7.3127c-1.1656 0-2.111.912-2.111 2.037s.9453 2.0363 2.111 2.0363z" fill="#ffffff"/></svg>
+            </span>
+            <span class="bootcamp__heading--title">Bootcamp</span>
+            <span class="bootcamp__heading--pipe">|</span>
+            <span class="bootcamp__heading--year">2019</span>
+          </h1>
+
+          <p class="bootcamp__sub-heading">Fullstack Development Avanzado</p>
         </a>
-        <ul class="bootcamp__metainfo">
-          <li aria-label="Fecha de inicio">2 <abbr title="Abril">Abr</abb> 2019</li>
-          <li aria-label="Asistencia">Presencial</li>
-          <li aria-label="Dónde">Madrid</li>
-        </ul>
-        <p class="bootcamp__lead">Learn by doing: 4 meses de formación en proyectos reales en un entorno de trabajo exigente</p>
-      </header>
-      <p>Un curso intensivo presencial en Madrid, que te permitirá tener acceso al mercado de las empresas tecnológicas y startups, en tan <strong>solo 4 meses</strong>. Aprenderás tecnologías front-end y back-end basadas en Javascript: Angular, NodeJS&hellip; y las aplicarás a proyectos reales.</p>
-      <button type="button">Más información sobre el Bootcamp</button>
 
-      <form action="" class="subscription">
-        <div class="form-group">
-          <label for="email" class="form-group__label"></label>
+        <div class="bootcamp__metainfo">
+          <div class="bootcamp__metainfo--group">
+            <span class="bootcamp__metainfo--logo">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"><path d="M27.5 6.4535v18.5718c-.001 1.367-1.06 2.4747-2.366 2.4747H3.845c-1.3062 0-2.3652-1.1076-2.366-2.4748V6.4535c.001-1.367 1.06-2.4748 2.366-2.4748h2.366v2.4748H3.845v18.5718h21.29V6.4535h-3.5477v2.496H19.22V1.504h2.366v2.475h3.5477c1.3062 0 2.3652 1.1076 2.366 2.475zM9.7615 1.5v2.4786H18.04V6.455H9.7615V8.93h-2.366V1.5zm7.081 9.905v4.957h-4.7178v-4.957zm5.91 0v4.957h-4.731v-4.957zM10.9258 17.58v4.94H6.195v-4.94zm5.915 0v4.94H12.11v-4.94zm-5.886-6.242v4.957H6.2242v-4.957z" fill="#fff"/></svg>
+            </span>
+            <span class="bootcamp__metainfo--text">Abril 2019</li>
+          </div>
+          
+          <div class="bootcamp__metainfo--group">
+            <span class="bootcamp__metainfo--logo">
+                <svg xmlns="http://www.w3.org/2000/svg" width="31" height="28"><path d="M15.75 1.037c-2.813 0-8.0446.0012-8.0446 3.9692v9.2l-.425.13c-.5467.1774-.9157.6848-.9157 1.256H5.0223v-2.6475h1.3423V10.3H1v2.6448h1.3408v3.9692c0 .7305.6006 1.323 1.3423 1.323h2.6815v1.3244c0 .7306.599 1.3245 1.3408 1.3245h6.7038v3.9692h-4.0207V27.5h10.726v-2.6448h-4.0223V20.886h6.704c.7416 0 1.3423-.594 1.3423-1.3245V18.237H27.82c.7417 0 1.3408-.5926 1.3408-1.323v-3.9692H30.5V10.3h-5.363v2.6448h1.3408v2.6475H25.137c0-.571-.3705-1.0785-.9172-1.256l-.422-.13v-9.2c0-3.968-5.2332-3.9692-8.046-3.9692zm.0016 2.6448c1.8746 0 5.363.0006 5.363 1.3244v1.3245H10.3885V5.0063c0-1.3224 3.4884-1.3244 5.363-1.3244zm-5.363 5.295h10.7262v4.5665c-1.5184-.312-3.43-.5986-5.363-.5986s-3.8447.2867-5.363.5986zm5.363 6.6154c2.6467 0 5.337.62 6.7023.9888v1.656H9.0477v-1.656c1.3654-.3687 4.056-.9888 6.704-.9888z" fill="#fff"/></svg>
+            </span>
+            <span class="bootcamp__metainfo--text">Presencial</li>
+          </div>
+          
+          <div class="bootcamp__metainfo--group">
+            <span class="bootcamp__metainfo--logo">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#fff"><path d="M14.718 24.1668c-.5585 0-1.0644-.3095-1.2954-.7913C12.45 21.3494 7.6 11.0842 7.6 7.9668c0-3.7218 3.1932-6.75 7.118-6.75s7.118 3.0282 7.118 6.75c0 3.1174-4.85 13.3826-5.8225 15.4087-.23.4818-.736.7913-1.2955.7913zm0-20.25c-2.3544 0-4.2707 1.8173-4.2707 4.05 0 1.597 2.2668 7.103 4.2707 11.5113 2.004-4.4103 4.2708-9.9152 4.2708-11.5113 0-2.2327-1.9164-4.05-4.2708-4.05zm-2.1354 4.05c0-1.122.9524-2.025 2.1354-2.025s2.1354.903 2.1354 2.025-.9524 2.025-2.1354 2.025-2.1354-.903-2.1354-2.025zm12.7882 20.25H4.065c-.9567.0012-1.8498-.4543-2.3763-1.212s-.6197-1.72-.2387-2.5535l3.05-6.748c.4465-.9936 1.476-1.638 2.615-1.6366h1.1718v2.7H7.115l-3.052 6.75h21.3067l-3.0508-6.75h-1.22v-2.7h1.22c1.142 0 2.1682.6428 2.6172 1.6377l3.0487 6.75c.3792.8333.2894 1.7917-.2388 2.5484s-1.4187 1.2164-2.3763 1.215z"/></svg>
+            </span>
+            <span class="bootcamp__metainfo--text">Madrid</li>
+          </div>
+
         </div>
-      </form>
-    </div>
-  </article>
+        
+        <p class="bootcamp__lead">Learn by doing: 4 meses de formación en proyectos<br>reales en un entorno de trabajo exigente</p>
+        
 
-  <p>Para optimizasr el SVG usamos:
-    <a href="https://jakearchibald.github.io/svgomg/">SVGOMG</a>
-  </p>
+      </header>
+
+      <main>
+        <p class="main-heading">Fullstack Development Avanzado</p>
   
+         <p class="bootcamp__sub-texto">Un curso intensivo presencial que te permitirá tener acceso laboral al mercado global de las empresas tecnológicas y startups, en tan solo 4 meses. Aprenderás tecnologías de frontend y backend tales como HTML5, CSS3, Javascript, Angular, NodeJS, MongoDB, Docker&hellip; aplicadas a proyectos reales.</p>
+
+        <button type="button" class="btn">Más información</button>
+  
+      </main>  
+    </div>
+  </article> 
+
 </body>
 </html>
