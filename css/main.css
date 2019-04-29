@@ -1,0 +1,611 @@
+:root {
+
+}
+
+/* =======================
+    RESET 
+   =======================  */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a { text-decoration: none; }
+
+/* =======================
+    SECTION BOOTCAMP 
+   =======================  */
+
+   @media only screen and (min-width: 768px) {
+
+       .bootcamp {
+            background-image: 
+                linear-gradient(
+                    to right,
+                    rgba(49, 35, 174, 0.0), 
+                    rgba(49, 35, 174, 0.0)),
+                    url(../img/bg-header.jpg);
+            background-size: 170% 170%;
+            background-position: -325px -450px;
+            background-repeat: no-repeat;
+            position: relative;
+       }
+
+       .bootcamp::before {
+            content: '';
+            position: absolute;
+            width: 100%;
+            min-height: 700px;
+            top: 700px;
+            background: #fff;
+            background-clip: padding-box;
+            transform: skew(0deg, 13.6deg);
+            border-top: 50px solid rgba(179, 179, 179, 0.2);
+        }
+
+   }
+
+   @media only screen and (max-width: 767px) {
+
+    .bootcamp {
+        background-image: 
+            linear-gradient(
+                to right,
+                rgba(49, 35, 174, 0.0), 
+                rgba(49, 35, 174, 0.0)),
+                url(../img/bg-header.jpg);
+        background-size: 370%;
+        background-position: -225px -150px;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+
+    .bootcamp::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        min-height: 700px;
+        top: 500px;
+        background: #fff;
+        background-clip: padding-box;
+        transform: skew(0deg, 13.6deg);
+        border-top: 50px solid rgba(179, 179, 179, 0.2);
+    }
+
+    
+
+   }
+
+/* =======================
+    SECTION CONTAINER 
+   =======================  */
+
+@media only screen and (min-width: 768px) {
+
+    .container {
+        max-width: 1024px;
+        margin: 0 auto;
+        margin-bottom: 100px;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+
+    .container {
+        max-width: 320px;
+        margin: 0 auto;
+        margin-bottom: 100px;
+    }
+    
+}
+
+/* =======================
+    SECTION HEADER
+   =======================  */
+
+   @media only screen and (min-width: 768px) {
+
+    .bootcamp__header {
+        position: relative;
+        padding-top: 94px;
+        min-height: 780px;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+
+    .bootcamp__header {
+        position: relative;
+        padding-top: 36px;
+        min-height: 780px;
+    }
+    
+}
+
+
+
+/* =======================
+    SECTION HEADING
+   =======================  */
+
+@media only screen and (min-width: 768px) {
+
+    .bootcamp__heading {
+       display: flex;
+       align-items: center;
+       padding-left: 88px;
+    }
+
+    .bootcamp__heading > span {
+       display: inline-block;
+       height: 48px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    .bootcamp__heading {
+        display: flex;
+        align-items: center;
+        padding-left: 28px;
+     }
+
+     .bootcamp__heading > span {
+        display: inline-block;
+        height: 38px;
+     }
+    
+}
+
+/* -------------------------------------------------  */
+
+@media only screen and (min-width: 768px) {
+
+    .bootcamp__heading--logo {
+       padding-top: 7px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    .bootcamp__heading--logo {
+        padding-top: 7px;
+     }
+}
+
+/* -------------------------------------------------  */
+
+@media only screen and (min-width: 768px) {
+
+    .bootcamp__heading--title {
+        margin-left: 10px;
+        margin-right: 1px;
+        font-family: 'Encode Sans', serif;
+        font-size: 2.25rem; /* 36px; */
+        font-weight: 300;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #fff;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    
+    .bootcamp__heading--title {
+        margin-left: 10px;
+        margin-right: 1px;
+        font-family: 'Encode Sans', serif;
+        font-size: 1.875rem;
+        font-weight: 300;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #fff;
+    }
+}
+
+/* -------------------------------------------------  */
+
+@media only screen and (min-width: 768px) {
+
+    .bootcamp__heading--pipe {
+        font-family: 'Encode Sans', serif;
+        font-size: 1.25rem; /* 20px; */
+        font-weight: 300;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 56px;
+        letter-spacing: normal;
+        padding-left: 15px;
+        color: #fff;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    
+    .bootcamp__heading--pipe {
+        font-family: 'Encode Sans', serif;
+        font-size: 1.25rem; /* 20px; */
+        font-weight: 300;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 47px;
+        letter-spacing: normal;
+        padding-left: 15px;
+        color: #fff;
+    }
+}
+
+/* -------------------------------------------------  */
+
+@media only screen and (min-width: 768px) {
+
+    .bootcamp__heading--year {
+        font-family: 'Encode Sans', serif;
+        font-size: 1.625rem;/* 26px; */
+        font-weight: 300;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 55px;
+        letter-spacing: normal;
+        padding-left: 19px;
+        color: #fff;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    .bootcamp__heading--year {
+        font-family: 'Encode Sans', serif;
+        font-size: 19px;
+        font-weight: 300;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 49px;
+        letter-spacing: normal;
+        padding-left: 19px;
+        color: #fff;
+    }
+    
+}
+
+/* -------------------------------------------------  */
+
+@media only screen and (min-width: 768px) {
+
+    .bootcamp__sub-heading {
+        font-family: 'Encode Sans', serif;
+        font-size: 1.625rem; /* 26px; */
+        font-weight: 300;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #9de7ac;
+        padding-left: 86px;
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    .bootcamp__sub-heading {
+        font-family: 'Encode Sans', serif;
+        font-size: 1.125rem; /* 18px; */
+        font-weight: 300;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #9de7ac;
+        padding-left: 28px;
+        margin-top: 12px;
+    }
+    
+}
+
+/* =======================
+    SECTION METAINFO
+   =======================  */
+
+@media only screen and (min-width: 768px) {
+
+    .bootcamp__metainfo {
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 88px;
+        margin-top: 54px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    .bootcamp__metainfo {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-left: 28px;
+        margin-top: 48px;
+    }
+    
+}
+
+/* -------------------------------------------------  */
+
+@media only screen and (min-width: 768px) {
+
+    .bootcamp__metainfo--group {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bootcamp__metainfo--group:nth-child(2) {
+        margin-left: 57px;
+        margin-right: 57px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    .bootcamp__metainfo--group {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .bootcamp__metainfo--group:nth-child(2) {
+        margin-top: 11px;
+        margin-bottom: 6px;
+    }
+}
+
+/* -------------------------------------------------  */
+
+@media only screen and (min-width: 768px) {
+
+    .bootcamp__metainfo--logo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 74px;
+        height: 60px;
+        border-bottom: 1px solid #fff;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    .bootcamp__metainfo--logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 37px;
+        height: 37px;
+        border-bottom: 0;
+        margin-right: 16px;
+    }
+    
+}
+
+
+/* -------------------------------------------------  */
+
+@media only screen and (min-width: 768px) {
+
+    .bootcamp__metainfo--text {
+        font-family: 'Encode Sans', serif;
+        font-size: 0.875rem; /* 14px; */
+        font-weight: 500;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 2.14;
+        letter-spacing: normal;
+        text-align: center;
+        color: #fff;
+        height: 60px;
+        padding-top: 4px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    .bootcamp__metainfo--text {
+        font-family: 'Encode Sans', serif;
+        font-size: 0.875rem; /* 14px; */
+        font-weight: 500;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 2.14;
+        letter-spacing: normal;
+        text-align: center;
+        color: #fff;
+        height: 37px;
+        padding-top: 4px;
+    }
+    
+    
+}
+
+/* -------------------------------------------------  */
+
+@media only screen and (min-width: 768px) {
+
+    .bootcamp__lead {
+        font-family: 'Encode Sans', serif;
+        font-size: 2rem; /* 32px; */
+        font-weight: 100;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.25;
+        letter-spacing: normal;
+        color: #fff;
+        padding-left: 88px;
+        margin-top: 24px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    .bootcamp__lead {
+        font-family: 'Encode Sans', serif;
+        font-size: 1.25rem; /* 20px; */
+        font-weight: 100;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.25;
+        letter-spacing: normal;
+        color: #fff;
+        padding-left: 28px;
+        margin-top: 44px;
+    }
+    
+}
+
+/* -------------------------------------------------  */
+
+/* =======================
+    SECTION MAIN
+   =======================  */
+
+
+   @media only screen and (min-width: 768px) {
+
+    .main-heading {
+        font-family: 'Encode Sans', serif;
+        font-size: 1.625rem; /* 26px; */
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #5db250;
+        padding-left: 88px;
+        margin-top: 50px;
+        position: relative;
+        /* z-index: 100px; */
+
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    .main-heading {
+        font-family: 'Encode Sans', serif;
+        font-size: 1.625rem; /* 26px; */
+        font-weight: 300;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #5db250;
+        padding-left: 29px;
+        margin-top: -180px;
+        position: relative;
+
+    }
+    
+}
+
+/* -------------------------------------------------  */
+
+@media only screen and (min-width: 768px) {
+
+    .bootcamp__sub-texto {
+        font-family: 'Encode Sans', serif;
+        font-size: 1rem; /* 16px; */
+        font-weight: 200;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.81;
+        letter-spacing: normal;
+        padding-left: 86px;
+        padding-right: 344px;
+        padding-top: 18px;
+        color: #323232;
+        position: relative;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    .bootcamp__sub-texto {
+        font-family: 'Encode Sans', serif;
+        font-size: 1rem; /* 16px; */
+        font-weight: 200;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.81;
+        letter-spacing: normal;
+        padding-left: 30px;
+        padding-right: 28px;
+        padding-top: 18px;
+        color: #323232;
+        position: relative;
+
+    }
+    
+}
+
+/* -------------------------------------------------  */
+
+@media only screen and (min-width: 768px) {
+
+    .btn {
+        font-family: 'Encode Sans', serif;
+        font-size: 1.125rem; /* 18px; */
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.44;
+        letter-spacing: normal;
+        text-align: center;
+        color: #8c40a3;
+        border-radius: 23.5px;
+        border: solid 1px #8c40a3;
+        padding: 9px 16px;
+        width: 213px;
+        height: 47px;
+        margin-left: 87px;
+        margin-top: 33px;
+        background-color: #fff;
+        position: relative;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    .btn {
+        font-family: 'Encode Sans', serif;
+        font-size: 1.125rem; /* 18px; */
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.44;
+        letter-spacing: normal;
+        text-align: center;
+        color: #8c40a3;
+        border-radius: 23.5px;
+        border: solid 1px #8c40a3;
+        padding: 9px 16px;
+        width: 261px;
+        height: 47px;
+        margin-left: 29px;
+        margin-top: 34px;
+        background-color: #fff;
+        position: relative;
+
+    }
+    
+}
+
+/* -------------------------------------------------  */
